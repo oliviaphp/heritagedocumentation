@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Home</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About the Team</a></li>
+        <li><a href="#">Show all Artefacts</a></li>
+</body>
+
+</html>
