@@ -2,20 +2,26 @@
     height: 40px;
     background: #a7e0ee;
   }
- .navbar ul {
+.navbar ul {
     margin: 0;
     padding: 0;
   }
-  .navbar ul li {
+.navbar ul li {
     list-style: none;
   }
-  .navbar ul li a {
+.navbar ul li a {
     text-decoration: none;
     float: left;
     display: block;
     padding: 10px 20px;
     color: black;
   }
-  .navbar ul li a:hover {
+.navbar ul li a:hover {
     color: white;
   }
+
+
+.main {
+        color: white;
+        background-image: url("artifact.jpg")
+}
