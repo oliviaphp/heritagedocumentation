@@ -20,7 +20,7 @@ body{
     text-decoration: none;
     float: left;
     display: block;
-    padding: 25px 20px; /* Not sure if this worked, github is being slow */
+    padding: 30px 20px; /* Not sure if this worked, github is being slow */
     color: black;
   }
 .navbar ul li a:hover {
@@ -35,7 +35,7 @@ body{
         color: white;
         font-size: 60px;
         text-align: center;
-        background-image: url('artifact.jpg'), padding: 10px 20px; /* Not sure if the padding worked */
+        background-image: url('artifact.jpg'); padding: 10px 20px; /* Not sure if the padding worked */
         background-size: cover;
         position: relative;
         padding: 0;
