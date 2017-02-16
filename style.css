@@ -40,6 +40,14 @@ body{
         padding: 0;
 }
 
+.main h2 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -105px;
+}
+
 /* About the Project */
 
 .project {
