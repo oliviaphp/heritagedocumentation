@@ -35,7 +35,7 @@ body{
         color: white;
         font-size: 60px;
         text-align: center;
-        background-image: url('artifact.jpg');
+        background-image: url('artifact.jpg'), padding: 10px 20px;
         background-size: cover;
         position: relative;
         padding: 0;
