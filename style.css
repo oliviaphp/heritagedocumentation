@@ -1,13 +1,14 @@
 body{
     margin: 0;
-    background-color: #a7e0ee;
+    background-color: #FDF3E7;
+    padding: 10px 20px;
 }
 
 /* Navigation Bar */
 
 .navbar {
     height: 40px;
-    background: #a7e0ee;
+    background: #C63D0F;
   }
 .navbar ul {
     margin: 0;
