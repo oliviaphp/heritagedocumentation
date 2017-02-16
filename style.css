@@ -27,7 +27,7 @@ body{
     color: white;
   }
 
-/* Main Section */
+/* Main Section Homepage */
 
 .main {
         width:100%;
@@ -49,9 +49,14 @@ body{
     margin-top: -105px;
 }
 
-/* About the Project */
+/* About the Project Homepage */
 
 .project {
     padding: 10px 20px;
 }
+
+/* End of Homepage */
+
+.title h2 {
+    text-align: center;
    
