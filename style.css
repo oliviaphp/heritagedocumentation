@@ -13,13 +13,13 @@ body{
 }
 
 .headercontent {
-    width: 100%;
+    width: 1024px;
     height: auto;
     margin: 0 auto; 
 }
 
 .headercontent a img {
-    width: 100%;
+    width: 659px;
     height: 144px;
     margin: 0px auto;
     display: block;
