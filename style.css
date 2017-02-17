@@ -3,6 +3,28 @@ body{
     background-color: #fdf3e7;
 }
 
+/* Header */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color:;
+    padding-top: 24px;
+}
+
+.headercontent {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.headercontent a img {
+    width: 659px;
+    height: 144px;
+    margin: 0px auto;
+    display: block;
+}
+
 /* Navigation Bar */
 
 .navbar {
