@@ -27,6 +27,12 @@ body{
     color: white;
   }
 
+.headerbreak {
+    width: 100%;
+    height: 0;
+    border-bottom: 2px solid #c63d0f;
+}
+
 /* Main Section Homepage */
 
 .main {
@@ -35,7 +41,7 @@ body{
         color: white;
         font-size: 60px;
         text-align: center;
-        background-image: url('artifact.jpg'); padding: 10px 20px; /* Not sure if the padding worked */
+        background-image: url('artifact.jpg');
         background-size: cover;
         position: relative;
         padding: 0;
