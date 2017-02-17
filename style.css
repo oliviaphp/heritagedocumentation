@@ -7,16 +7,19 @@ body{
 
 .header {
     width: 100%;
+    height: auto;
     background-color:;
     padding-top: 24px;
 }
 
 .headercontent {
     width: 100%;
+    height: auto;
 }
 
 .headercontent a img {
     width: 100%;
+    height: 144px;
     display: block;
 }
 
