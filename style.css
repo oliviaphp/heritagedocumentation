@@ -89,3 +89,13 @@ body{
     text-align: center;
 }
    
+
+/* Artefacts Page */
+
+#imagelist a {
+    border: 4px solid #333;
+}
+
+#imagelist a: hover {
+    border-color: white;
+}
