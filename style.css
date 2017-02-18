@@ -98,6 +98,6 @@ body{
     display: inline-block;
 }
 
-#imagelist a: hover {
+#imagelist a:hover {
     border-color: white;
 }
