@@ -33,14 +33,25 @@
 	</div>
 		
 	<div id="imagelist">
-		<a href="artefactimage1.jpg"><img src="artefactimage1.jpg" style="width:304px;height:228px"/></a>
-		<a href="artefactimage2.jpg"><img src="artefactimage2.jpg" style="width:304px;height:228px"/></a>
+		<a class="fancybox" rel="group" href="artefactimage1.jpg"><img src="artefactimage1.jpg" style="width:304px;height:228px" alt="Artefact One"/></a>
+		<a class="fancybox" rel="group" href="artefactimage2.jpg"><img src="artefactimage2.jpg" style="width:304px;height:228px" alt="Artefact Two"/></a>
 	</div>
                                  
         <div class="footer">
         <p>All Rights Reserved</p>
     </div>
 	
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
 	
 </body>
 
