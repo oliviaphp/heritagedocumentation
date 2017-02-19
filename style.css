@@ -105,3 +105,12 @@ body{
     border-radius: 10px;
     opacity: 1;
 }
+
+/* Footer */
+
+.footer p {
+    text-align: center;
+    font-size: 11px;
+}
+
+
