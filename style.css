@@ -37,10 +37,10 @@ body{
   }
 .navbar ul li {
     list-style: none;
+    text-align: center;
   }
 .navbar ul li a {
-    text-decoration: none;
-    text-align: center;
+    text-decoration: none;    
     display: block;
     padding: 30px 20px; /* Not sure if this worked, github is being slow */
     color: black;
