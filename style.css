@@ -96,8 +96,12 @@ body{
     margin: 2px;
     border: 4px solid transparent;
     display: inline-block;
+    border-radius: 10px;
+    opacity: .5;
 }
 
 #imagelist a:hover {
     border-color: white;
+    border-radius: 10px;
+    opacity: 1;
 }
