@@ -83,7 +83,8 @@
 }
 
 #home:target ~ #header #navigation #link-home,
-#team:target ~ #header #navigation #link-team{
+#team:target ~ #header #navigation #link-team,
+#artifacts:target ~ #header #navigation #link-artifacts{
 	background: #000;
 	color: #fff;
 }
