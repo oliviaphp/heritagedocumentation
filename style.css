@@ -36,6 +36,10 @@
 	background: #ddd;
 }
 
+#home {
+	background-color: #fdf3e7;
+}
+
 .panel{
 	min-width: 100%;
 	height: 98%;
