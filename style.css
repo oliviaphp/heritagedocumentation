@@ -88,8 +88,13 @@
 */
 
 #details {
+  display: none;
   animation-duration: 1s;
   animation-name: slidein;
+}
+
+#details ul li {
+	list-style:none;
 }
 
 @keyframes slidein {
@@ -149,10 +154,6 @@
 	background: black;
 	padding: 10px;
 	margin: 3px 0px;
-}
-
-#details ul li {
-	list-style:none;
 }
 	
 
