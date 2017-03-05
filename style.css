@@ -73,6 +73,10 @@
 	
 }
 
+.paneltwo:target{
+	margin-top: 0%;
+}
+
 .content{
 	right: 40px;
 	left: 280px;
