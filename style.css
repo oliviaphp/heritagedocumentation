@@ -95,6 +95,11 @@
 	bottom: 0;
 	width: 85%;
 	background-color: #f7f7f7;
+	-webkit-transition: all .6s ease-in-out;
+	-moz-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	-ms-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
 }
 
 .currentpage {
