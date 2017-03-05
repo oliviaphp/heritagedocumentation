@@ -61,6 +61,7 @@
 	background-color: #fdf3e7;
 }
 
+/*
 .paneltwo {
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -82,6 +83,23 @@
 
 .paneltwo:target{
 	margin-top: 0%;
+}
+
+*/
+
+.page {
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	left: 2000px;
+	bottom: 0;
+	width: 85%;
+	background-color: #f7f7f7;
+}
+
+.currentpage {
+	-webkit-box-shadow: -2px 0 4px -2px rgba(0,0,0,.25);
+	box-shadow: -2px 0 4px -2px rgba(0,0,0,.25);
 }
 
 .content{
