@@ -61,7 +61,8 @@
 }
 
 .paneltwo {
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 	width: 85%;
 	top: 0;
 	bottom: 0;
