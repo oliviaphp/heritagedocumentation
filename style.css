@@ -19,6 +19,7 @@
 	display:block;
 	list-style:none;
 	z-index:3;
+	color: #fdf3e7;
 }
 #navigation a{
 	color: #444;
