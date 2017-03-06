@@ -93,6 +93,7 @@
 	padding: 60px 0 45px 0;
 }
 
+/*
 .pageheader:after {
 	top: 100%;
 	border: solid transparent;
@@ -108,6 +109,8 @@
 	margin-left: -30px;
 	z-index: 1;
 }
+
+*/
 
 #details {
   display: none;
