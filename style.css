@@ -118,6 +118,10 @@
 	padding: 0 0 20px 0;
 }
 
+.section-container {
+	padding: 0 10%;
+}
+
 .page {
 	overflow: auto;
 	position: absolute;
