@@ -95,6 +95,7 @@
 
 #details ul li {
 	list-style:none;
+	z-index: 4
 }
 
 @keyframes slidein {
