@@ -133,8 +133,8 @@
 }
 
 .content{
-	/*right: 40px;
-	left: 280px;*/
+	right: 40px;
+	left: 280px;
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
