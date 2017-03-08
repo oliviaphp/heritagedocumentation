@@ -136,6 +136,9 @@
 .currentpage {
 	-webkit-box-shadow: -2px 0 4px -2px rgba(0,0,0,.25);
 	box-shadow: -2px 0 4px -2px rgba(0,0,0,.25);
+	display: none;
+	animation-duration: 1s;
+	animation-name: slidein;
 }
 
 .content{
@@ -144,6 +147,7 @@
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
+	background-color: #fdf3e7;
 }
 .content h2{
 	font-size: 110px;
@@ -171,14 +175,11 @@
 	color: #fff;
 }
 
-
-/* Attempting new website structure
-
 body{
     margin: 0;
     background-color: #fdf3e7;
 }
-
+/* Attempting new website structure
 /* Header */
 /*
 .header {
@@ -290,6 +291,3 @@ body{
     text-align: center;
     font-size: 11px;
 }
-
-*/
-
