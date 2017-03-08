@@ -103,11 +103,32 @@
 				echo "<a button onclick=closeFunction('".$line[uuid]."')>[<u>Close</u>]</a>\r\n";
 			    echo "<h3 class='title'>Artifact Details</h3>\r\n";
 				echo "<ul>
+					<li>Object Type: ".$line[ObjectType]."</li>
+					<li>Object Subtype: ".$line[ObjectSubType]."</li>
+					<li>Object Part: ".$line[ObjectPart]."</li>
+					<li>X: ".$line[X]."</li>
+					<li>Y: ".$line[Y]."</li>
+					<li>Z: ".$line[Z]."</li>
 					<li>Material: ".$line[Material]."</li>
+					<li>Material Subtype: ".$line[MaterialSbType]."</li>
+					<li>Surface Texture: ".$line[SurfaceTexture]."</li>
+					<li>Decoration: ".$line[Decoration]."</li>
+					<li>Decoration Type: ".$line[DecorationType]."</li>
 					<li>Condition: ".$line[Condit]."</li>
-					<li>Object Type: ".$line[ObjectType];
+					<li>Looting Risk: ".$line[LootingRisk]."</li>
+					<li>Vandalism Risk: ".$line[VandalismRisk]."</li>
+					<li>Removal Risk: ".$line[RemovalRisk]."</li>
+					<li>Damage Risk: ".$line[DamageRisk]."</li>
+					<li>Free Text: ".$line[FreeText]."</li>
+					<li>Latitude: ".$line[Latitude]."</li>
+					<li>Longitude: ".$line[Longitude]."</li>
+					<li>hasParent: ".$line[hasParent]."</li>
+					<li>Parent ID: ".$line[ParentID]."</li>
+					<li>User ID: ".$line[UserID]."</li>
+					<li>uuid: ".$line[uuid]."</li>
+					<li>Site: ".$line[Site]."</li>
 				echo "</ul></div>\r\n";
-				//ObjectType,ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
+				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
 
 		}
