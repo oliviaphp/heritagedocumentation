@@ -64,7 +64,7 @@
 
 					while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
 						//echo "\t<br />\n";
-						$pano = glob('../olivia/Sites/'.$line[Site]."/".$line[uuid]."/*.*");
+						$pano = glob('../Sites/'.$line[Site]."/".$line[uuid]."/*.*");
 						echo '<a button onclick=myFunction("'.$line[uuid].'")><img src="' . $pano[0] .'" style="width:304px;height:228px" alt="'. $line[uuid] .'"/></a>';	
 						echo "\r\n";
 				 	}
