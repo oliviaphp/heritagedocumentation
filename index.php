@@ -126,7 +126,7 @@
 					<li>Parent ID: ".$line[ParentID]."</li>
 					<li>User ID: ".$line[UserID]."</li>
 					<li>uuid: ".$line[uuid]."</li>
-					<li>Site: ".$line[Site]."</li>;
+					<li>Site: ".$line[Site]."</li>";
 				echo "</ul></div>\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
