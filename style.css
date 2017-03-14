@@ -183,6 +183,7 @@ body{
 .detailslist {
 	list-style:none;
 	padding: 0 10%;
+	margin-left: 80px;
 }
 
 /* Attempting new website structure
