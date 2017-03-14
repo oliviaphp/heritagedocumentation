@@ -180,6 +180,10 @@ body{
     background-color: #b6a19e;
 }
 
+h3{
+	text-align: center;
+}
+
 .detailslist {
 	list-style:none;
 	padding: 0 10%;
