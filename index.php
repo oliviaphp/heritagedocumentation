@@ -102,7 +102,7 @@
 				echo "<div id='".$line[uuid]."' class='page currentpage' style='z-index:499; left: 30%;'>\r\n";
 				echo "<a button onclick=closeFunction('".$line[uuid]."')>[<u>Close</u>]</a>\r\n";
 			    echo "<h3 class='title'>Artifact Details</h3>\r\n";
-				echo "<div class='detailslist'<ul>
+				echo "<div class='detailslist'><ul>
 					<li>Object Type: ".$line[ObjectType]."</li>
 					<li>Object Subtype: ".$line[ObjectSubType]."</li>
 					<li>Object Part: ".$line[ObjectPart]."</li>
