@@ -184,7 +184,7 @@ h3{
 	margin-left: 80px;
 }
 
-.detailslist {
+.detailslist ul li {
 	list-style:none;
 	padding: 0 10%;	
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
