@@ -185,8 +185,9 @@ h3{
 }
 
 .detailslist ul li {
+	margin-left: 80px;
 	list-style:none;
-	padding: 0 10%;	
+	/*padding: 0 10%;*/	
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
 	-moz-column-count: 3; /* Firefox */
 	column-count: 3;
