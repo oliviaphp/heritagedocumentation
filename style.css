@@ -187,6 +187,14 @@ h3{
 .detailslist {
 	list-style:none;
 	padding: 0 10%;	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	column-gap: 40px;
+	-webkit-column-rule: 1px solid grey; /* Chrome, Safari, Opera */
+	-moz-column-rule: 1px solid grey; /* Firefox */
+	column-rule: 1px solid grey;
+
 }
 
 /* Attempting new website structure
