@@ -121,20 +121,15 @@
 				echo "</ul>
 					<table class='table table-bordered'>
 					<tr>";
-					echo (2 > $line[LootingRisk]) ? "<td class='success'>" : "<td class='danger'>";
-
-				echo	"Looting </td>
-						<td class='success'>
-							Vandalism ".$line[VandalismRisk]."
-						</td>
-						<td class='success'>
-							Removal ".$line[RemovalRisk]."
-						</td>
-						<td class='success'>
-							Damage ".$line[DamageRisk]."
-						</td></tr></table>
-
-					</div><!-- detailslist -->\r\n";
+				echo (2 > $line[LootingRisk]) ? "<td class='success'>" : "<td class='danger'>";
+				echo	"Looting </td>";
+				echo (2 > $line[VandalismRisk]) ? "<td class='success'>" : "<td class='danger'>";
+				echo "Vandalism </td>";
+				echo (2 > $line[RemovalRisk]) ? "<td class='success'>" : "<td class='danger'>";
+				echo "Removal </td>";
+				echo (2 > $line[DamageRisk]) ? "<td class='success'>" : "<td class='danger'>";
+				echo "Damage </td>";
+				echo "</tr></table></div><!-- detailslist -->\r\n";
 				echo "</div><!-- ".$line[uuid]." -->\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
