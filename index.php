@@ -103,20 +103,12 @@
 				echo "<a button onclick=closeFunction('".$line[uuid]."')>[<u>Close</u>]</a>\r\n";
 			    	echo "<h3 class='title'>Artifact Details</h3>\r\n";
 				echo "<div class='detailslist'><ul>
-					<li>Object Type: ".$line[ObjectType]."</li>
-					<li>Object Subtype: ".$line[ObjectSubType]."</li>
-					<li>Object Part: ".$line[ObjectPart]."</li>
+					<li>Object Type: ".$line[ObjectType].", ".$line[ObjectSubType].", ".$line[ObjectPart]."</li>
 					<li>Dimensions : ".$line[X]." x ".$line[Y]." x ".$line[Z]."</li>
-					<li>Material: ".$line[Material]."</li>
-					<li>Material Subtype: ".$line[MaterialSbType]."</li>
+					<li>Material: ".$line[Material].", ".$line[MaterialSbType]."</li>
 					<li>Surface Texture: ".$line[SurfaceTexture]."</li>
-					<li>Decoration: ".$line[Decoration]."</li>
-					<li>Decoration Type: ".$line[DecorationType]."</li>
+					<li>Decoration: ".$line[Decoration].", ".$line[DecorationType]."</li>
 					<li>Condition: ".$line[Condit]."</li>
-					<li>Looting Risk: ".$line[LootingRisk]."</li>
-					<li>Vandalism Risk: ".$line[VandalismRisk]."</li>
-					<li>Removal Risk: ".$line[RemovalRisk]."</li>
-					<li>Damage Risk: ".$line[DamageRisk]."</li>
 					<li>Free Text: ".$line[FreeText]."</li>
 					<li>Latitude: ".$line[Latitude]."</li>
 					<li>Longitude: ".$line[Longitude]."</li>
@@ -125,7 +117,23 @@
 					<li>User ID: ".$line[UserID]."</li>
 					<li>uuid: ".$line[uuid]."</li>
 					<li>Site: ".$line[Site]."</li>";
-				echo "</ul></div><!-- detailslist -->\r\n";
+				echo "</ul>
+					<table class='table table-bordered'>
+					<tr>
+						<td class='success'>
+							Looting Risk: ".$line[LootingRisk]."
+						</td>
+						<td class='success'>
+							Vandalism Risk: ".$line[VandalismRisk]."
+						</td>
+						<td class='success'>
+							Removal Risk: ".$line[RemovalRisk]."
+						</td>
+						<td class='success'>
+							Damage Risk: ".$line[DamageRisk]."
+						</td></tr></table>
+				
+					</div><!-- detailslist -->\r\n";
 				echo "</div><!-- ".$line[uuid]." -->\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
