@@ -120,9 +120,12 @@
 					<li>Site: ".$line[Site]."</li>";
 				echo "</ul>
 					<table class='table table-bordered'>
-					<tr>
-						<td class='success'>
-							Looting Risk: ".$line[LootingRisk]."
+					<tr>";
+					if ($line[LootingRisk] == 0) {
+	  				echo "<td class='success'>"
+					}
+
+				echo	"Looting Risk: ".$line[LootingRisk]."
 						</td>
 						<td class='success'>
 							Vandalism Risk: ".$line[VandalismRisk]."
