@@ -5,8 +5,8 @@
 <head>
 	<meta charset="UTF-8">
     <title>Heritage Documentation and Protection</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
 		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
 
     <style>
