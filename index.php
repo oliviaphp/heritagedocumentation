@@ -101,7 +101,7 @@
 				//echo "\t<br />\n";
 				echo "<div id='".$line[uuid]."' class='page currentpage' style='z-index:499; left: 30%;'>\r\n";
 				echo "<a button onclick=closeFunction('".$line[uuid]."')>[<u>Close</u>]</a>\r\n";
-			    echo "<h3 class='title'>Artifact Details</h3>\r\n";
+			    	echo "<h3 class='title'>Artifact Details</h3>\r\n";
 				echo "<div class='detailslist'><ul>
 					<li>Object Type: ".$line[ObjectType]."</li>
 					<li>Object Subtype: ".$line[ObjectSubType]."</li>
@@ -127,7 +127,8 @@
 					<li>User ID: ".$line[UserID]."</li>
 					<li>uuid: ".$line[uuid]."</li>
 					<li>Site: ".$line[Site]."</li>";
-				echo "</ul></div>\r\n";
+				echo "</ul></div><!-- detailslist -->\r\n";
+				echo "</div><!-- ".$line[uuid]." -->\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
 
