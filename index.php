@@ -121,18 +121,17 @@
 				echo "</ul>
 					<table class='table table-bordered'>
 					<tr>";
-					echo (0 == $line[LootingRisk]) ? "<td class='success'>" : "<td class='warning'>";
+					echo (2 > $line[LootingRisk]) ? "<td class='success'>" : "<td class='danger'>";
 
-				echo	"Looting Risk: ".$line[LootingRisk]."
+				echo	"Looting </td>
+						<td class='success'>
+							Vandalism ".$line[VandalismRisk]."
 						</td>
 						<td class='success'>
-							Vandalism Risk: ".$line[VandalismRisk]."
+							Removal ".$line[RemovalRisk]."
 						</td>
 						<td class='success'>
-							Removal Risk: ".$line[RemovalRisk]."
-						</td>
-						<td class='success'>
-							Damage Risk: ".$line[DamageRisk]."
+							Damage ".$line[DamageRisk]."
 						</td></tr></table>
 
 					</div><!-- detailslist -->\r\n";
