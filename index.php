@@ -3,11 +3,12 @@
 <html>
 
 <head>
-	<meta charset="UTF-8"> 
+	<meta charset="UTF-8">
     <title>Heritage Documentation and Protection</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn">
-    
+
     <style>
         body {
         font-family: 'Vollkorn', serif;
@@ -28,21 +29,21 @@
             <h3>About the Project</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
-    </div> 
+    </div>
      <!--- End Homepage -->
-    
+
      <!--- Team -->
     <div id="team" class="panel">
 	    <div class="content">
 		    <h2>About the Team</h2>
-		    
-		
+
+
 	    </div>
     </div>
     <!--- End Team -->
 
 	<!-- Artifacts -->
-	
+
 	<div id="artifacts" class="panel">
 		<div class="content">
 			<h2>Show all Artifacts</h2>
@@ -65,7 +66,7 @@
 					while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
 						//echo "\t<br />\n";
 						$pano = glob('../Sites/'.$line[Site]."/".$line[uuid]."/*.*");
-						echo '<a button onclick=myFunction("'.$line[uuid].'")><img src="' . $pano[0] .'" style="width:304px;height:228px" alt="'. $line[uuid] .'"/></a>';	
+						echo '<a button onclick=myFunction("'.$line[uuid].'")><img src="' . $pano[0] .'" style="width:304px;height:228px" alt="'. $line[uuid] .'"/></a>';
 						echo "\r\n";
 				 	}
 				}
@@ -77,7 +78,7 @@
 				mysql_close($link);
 				?>
 			</div><!--imagelist-->
-			
+
 		</div><!--content-->
 	</div><!--artifacts-->
 
@@ -132,7 +133,7 @@
 						<td class='success'>
 							Damage Risk: ".$line[DamageRisk]."
 						</td></tr></table>
-				
+
 					</div><!-- detailslist -->\r\n";
 				echo "</div><!-- ".$line[uuid]." -->\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
@@ -172,7 +173,7 @@
 </script>
 
 	<!-- End Artifacts -->
-	
+
     <!-- Header with Navigation -->
 	<div id="header">
 		<h1>HeDAP</h1>
