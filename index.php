@@ -167,7 +167,7 @@
 	
     <!-- Header with Navigation -->
 	<div id="header">
-		<h1>Page Transitions with CSS3</h1>
+		<h1>HeDAP</h1>
 		<ul id="navigation">
 			<li><a id="link-home" href="#home">Home</a></li>
 			<li><a id="link-team" href="#team">About the Team</a></li>
