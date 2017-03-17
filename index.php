@@ -106,9 +106,7 @@
 					<li>Object Type: ".$line[ObjectType]."</li>
 					<li>Object Subtype: ".$line[ObjectSubType]."</li>
 					<li>Object Part: ".$line[ObjectPart]."</li>
-					<li>X: ".$line[X]."</li>
-					<li>Y: ".$line[Y]."</li>
-					<li>Z: ".$line[Z]."</li>
+					<li>Dimensions : ".$line[X]." x ".$line[Y]." x ".$line[Z]."</li>
 					<li>Material: ".$line[Material]."</li>
 					<li>Material Subtype: ".$line[MaterialSbType]."</li>
 					<li>Surface Texture: ".$line[SurfaceTexture]."</li>
