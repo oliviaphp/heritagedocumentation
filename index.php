@@ -131,8 +131,7 @@
 				echo "Damage </td>";
 				echo "</tr></table></div><!-- detailslist -->\r\n";
 
-				echo "<iframe width='400' height='300' frameborder='0' style='border:0' src='https://www.google.com/maps/embed/v1/view?key=AIzaSyCF0hDRT_j15Ml0rNyprSAPHQOC3vRj5_8&center=-33.8569,151.2152&zoom=18&maptype=satellite' allowfullscreen></iframe>";
-
+				echo "<iframe width='400' height='300' frameborder='0' style='border:0' src='https://www.google.com/maps/embed/v1/view?key=AIzaSyCF0hDRT_j15Ml0rNyprSAPHQOC3vRj5_8&center=".$line[Latitude].",".$line[Longitude]."&zoom=18&maptype=satellite' allowfullscreen></iframe>";
 				echo "</div><!-- ".$line[uuid]." -->\r\n";
 				//ObjectSubType,ObjectPart,X,Y,Z,Material,MaterialSbType,SurfaceTexture,Decoration,DecorationType,Condit,LootingRisk,VandalismRisk,RemovalRisk,DamageRisk,FreeText,Latitude,Longitude,hasParent,ParentID,UserID,uuid,Site
 		 	}
