@@ -121,9 +121,7 @@
 				echo "</ul>
 					<table class='table table-bordered'>
 					<tr>";
-					if ($line[LootingRisk] == 0) {
-	  				echo "<td class='success'>"
-					}
+					echo (0 == $line[LootingRisk]) ? "<td class='success'>" : "<td class='warning'>";
 
 				echo	"Looting Risk: ".$line[LootingRisk]."
 						</td>
